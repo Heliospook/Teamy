@@ -1,0 +1,36 @@
+body{
+    background: #003e29;
+}
+
+/* input{
+    padding: 0 5px 0 5px;
+    margin: 5px 0 0 0;
+    display: block;
+} */
+
+button{
+    margin: 10px 0 0 0;
+    display: block;
+    background: #003e29;
+    color: white;
+    font-weight: bold;
+    padding: 3px 10px 3px 10px;
+}
+
+#showGroups{
+    margin: 50px 0 0 0;
+    padding-top: 5vh;
+    padding-left: 5vh;
+    padding-bottom: 3vh;
+    border: #036444;
+    background: #003e29;
+    color: white;
+}
+
+.teamName{
+    list-style-type: square;
+}
+
+.container.inputfields{
+    margin-top : 5vh;
+}

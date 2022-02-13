@@ -1,0 +1,23 @@
+body{
+    background-color: #003e29;
+}
+.Introtext{
+    padding:10vmin;
+    color: white;
+}
+
+.row{
+    padding-top: 10vmin;
+}
+.col{
+    margin:auto;
+}
+h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+.card-img-top{
+    width: 25vmin;
+    height: 25vmin;
+    margin:auto;
+}

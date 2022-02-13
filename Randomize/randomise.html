@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./randomise.css">
+
+     <!-- Required meta tags -->
+     <meta name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+     <!-- Bootstrap CSS -->
+     <link rel='stylesheet' href='../bootstrap-components-masterfile/css/bootstrap-grid.min.css'>
+     <link rel = 'stylesheet' href = '../bootstrap-components-masterfile/css/bootstrap.min.css'>
+     <link rel='stylesheet' href='style.css'> 
+  <title>Teamy</title>
+</head>
+<body>
+    <!-- The navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #03270b;">
+        <a class="navbar-brand" href="../mainpage.html">Teamy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="randomise.html">Randomize <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Preference/index.html">By Mutual Preference</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Strength/strength.html">By Strength</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- All input fields -->
+    <!-- <input type="text" id="total" placeholder="Total number of students">
+    <input type="text" id="sizeOfGroup" placeholder="Size of a group">
+    <input type="text" id="prefix" placeholder="Prefix of ID/Roll No.">
+    <button id="generate">GENERATE GROUPS</button> -->
+    
+    <div class="container inputfields">
+        <div class="row">
+            <div class='col'></div>
+            <div class="col-6">
+                <form>
+                    <div class="form-group">
+                        <input type="text" id="total" placeholder="Total number of students">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="sizeOfGroup" placeholder="Size of a group">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="prefix" placeholder="Prefix of ID/Roll No.">
+                    </div>
+                    <button id="generate">GENERATE GROUPS</button>
+                  </form>
+            </div>
+            <div class='col'></div>
+        </div>
+    </div>
+
+    <!-- Show groups on the page, Here -->
+    <div id="showGroups">
+        <ul id="groups">
+            <li>
+                Click the "GENERATE GROUPS" button to create the groups/teams
+            </li>
+        </ul>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q' crossorigin='anonymous'></script>
+    <script src='../bootstrap-components-masterfile/js/bootstrap.min.js'></script>
+    <script src="./randomise.js"></script>
+</body>
+</html>
